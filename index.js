@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Enable CORS
-app.use(cors());
+//app.use(cors());
 
 // Endpoint to roll a dice
 app.get('/api/roll/:sides', (req, res) => {
